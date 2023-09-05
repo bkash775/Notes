@@ -46,3 +46,14 @@ Basic commands:
 
 To set ssh-remote push:`git remote set-url origin git@github.com:bkash775/ODIN_PROJECT.git
 
+
+to create a github repo:
+step 1: gh auth login
+step 2: gh repo create <repo name> --description " " --public
+step 3: git init
+step 4: echo "# Notes" >> README.md
+step 5: git add README.md
+step 6: git commit -m "first commit"
+step 7: git branch -M main
+step 8: git remote add origin <ssh:git link>
+step 9: git push -u origin main
